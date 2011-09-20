@@ -58,8 +58,8 @@ public class AppTest implements ITest
 		WebElement email = _driver.findElement(By.id("email"));
 
 		// Enter data        
-		pass.sendKeys("pass");
-		email.sendKeys("email@test.com");
+		pass.sendKeys("pass");              // Replace with a real pass
+		email.sendKeys("email@test.com");   // Replace with a real user
 
 		// Submit
 		pass.submit();
